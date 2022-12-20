@@ -1,4 +1,5 @@
-from transport import Transport
+# from transport import Transport
+from prod.model.entity import *
 
 
 class Parking:
@@ -48,3 +49,4 @@ class Parking:
             for transport in self._ls:
                 msg += str(transport) + "\n"
             msg += "There are {self._size - len(self)} empte places"
+            return msg

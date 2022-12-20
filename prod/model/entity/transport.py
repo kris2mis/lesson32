@@ -52,5 +52,5 @@ class Transport:
 
     def __srt__(self):
         return f"width = {self._width}," \
-               f"lengh = {self._length}," \
+               f"length = {self._length}," \
                f"number = {self._number}"
