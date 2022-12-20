@@ -24,7 +24,7 @@ class Transport:
         del self._width
 
     @property
-    def length (self):
+    def length(self):
         return self._length
 
     @length.setter
@@ -44,13 +44,11 @@ class Transport:
 
     @number.setter
     def number(self, number):
-        self._number =number
+        self._number = number
 
     @number.deleter
     def numberh(self):
         del self._number
-
-
 
     def __srt__(self):
         return f"width = {self._width}," \
